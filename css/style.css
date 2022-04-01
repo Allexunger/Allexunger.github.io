@@ -3,7 +3,7 @@ head{
 
 }
 
-.body, h1, h2, h3, h4, h5, h6, *, before, after {
+.body, h1, h2, h3, h4, h5, h6, * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -36,23 +36,32 @@ div{
 .logotext{
     color:#fff;
     font-family: Poppins;
-    font-size: 37px;
+    font-size: 3vw;
     font-style: normal;
     font-weight: 800;
     line-height: 56px;
-    margin-right: 426px;
-    margin-left: 16.89px;
+    clear:right;
+}
+logo_start{
+    width: 45px;
+}
 
+.nav{
+    width:100%;
+    text-align: right;
+    top: -20px;
 }
-img{
-    width: 45.12px;
+.logo_div{
+    width: 100%;
+    text-align: left;
 }
+
 
 a{
     text-decoration: none;
     color:#707070;
     font-family: Poppins;
-    font-size: calc(1rem + 0.4vw);
+    font-size: calc(1rem + 0.3vw);
     font-style: normal;
     font-weight: 500;
     line-height: 30px;
@@ -309,6 +318,7 @@ h6{
     width:100%;
     margin-top: 50px;
     text-align: left;
+    margin-bottom: 100px;
 }
 .btn_3{
     color: #b3b3b3;
@@ -337,29 +347,38 @@ h6{
 }
 step_2{
     width:100%;
-
-
+    position: relative;
 }
 .left{
     height: 666px;
-    width: auto;
-    max-width:50%;
+    width: 800px;
     padding-top:45px;
     padding-left:45px;
-    margin-top: 176px;
     position: relative;
     background:#0D0D0D;
-    
+    margin-top: 180px;
+    float: left;
+
+}
+.mobile_div{
+    text-align: right;
+}
+.mobile{
+    width:215%;
+    max-width:770px;
+    top:73px;
+    left:2px;
+
 }
 
 .right{
     background: #0D0D0D;
     height: 666px;
-    width: 49%;
+    width: 800px;
     padding-top:45px;
     padding-left:45px;
-    float: inline-end;
-    margin-top: 176px;
+    
+    margin-top: 180px;
 }
 .green{
     color: #0FC65C;
@@ -374,19 +393,18 @@ step_2{
 }
 .gray{
     font-family: Poppins;
-    font-size: 80px;
     width: 100%;
     font-style: normal;
     font-weight: 600;
     line-height: 120px;
     letter-spacing: 0px;
     text-align: left;
+    float:inline-start;
     color:#919191;
-    font-size: calc(1rem + 2vw);
+    font-size: 3vw;
 }
 .wh{
     font-family: Poppins;
-    font-size: 80px;
     font-style: normal;
     font-weight: 600;
     line-height: 120px;
@@ -394,13 +412,13 @@ step_2{
     text-align: left;
     color:#fff;
     width: 100%;
-    font-size: calc(1rem + 2vw);
+    font-size: 3vw;
 }
 
 .image_2{
     width: 100%;
     height:442px;
-    margin-top: 52px;
+    margin-top: 100px;
 }
 .meg{
     background: url(../images/Image-5.png) center no-repeat;
@@ -452,7 +470,7 @@ h3{
     border-radius: 15px;
     cursor: pointer;
     transition: all 0.2s linear;
-    width:472px;
+    width:400px;
 
 
 }
@@ -498,3 +516,9 @@ h3{
 
 
 }
+.smile{
+    width:45px;
+}
+
+
+
