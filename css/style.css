@@ -181,6 +181,7 @@ a:hover{
 .dot{
     margin-top: 22px;
     width:2%;
+    vertical-align: sub;
 }
 
 .smile_text{
@@ -330,6 +331,7 @@ h6{
 .bullet{
     width:33px;
     height:33px;
+    vertical-align: sub;
 }
 .photo{
     width:820px;
@@ -510,7 +512,9 @@ h3{
 }
 .smile{
     width:45px;
+    vertical-align: sub;
 }
+
 
 
 
