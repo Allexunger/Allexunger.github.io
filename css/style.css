@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6{
     height:auto;
     background: #000000;
     position: relative;
-    min-width: 1640px;
+    min-width: 360px;
     max-width: 100%;
 
 }
@@ -351,14 +351,7 @@ step_2{
     background:#0D0D0D;
     
 }
-.mobile{
-    width:auto;
-    height: auto;
-    max-width:50%;
-    position:absolute;
 
-
-}
 .right{
     background: #0D0D0D;
     height: 666px;
