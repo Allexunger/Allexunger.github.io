@@ -14,9 +14,9 @@ head{
     font-size: 16px;
     text-align: center;
     display: inline-block;
-
-
-
+}
+h1, h2, h3, h4, h5, h6{
+    font-size: calc(1rem + 5vw);
 }
 
 .body{
@@ -25,11 +25,12 @@ head{
     position: relative;
     min-width: 360px;
     max-width: 100%;
-    padding-left: 140px;
-    padding-right: 140px;
+
 }
 div{
     width: 100%;
+    padding-left: 140px;
+    padding-right: 140px;
 }
 
 .logotext{
@@ -67,9 +68,8 @@ a:hover{
 
 .ul_header{
     list-style-type:none; 
-    margin-right: 423px;
-
 }
+
 .btn_1{
     color: #b3b3b3;
     padding: 12px 20px 13px 22px;
@@ -165,7 +165,7 @@ a:hover{
     line-height: 38px;
     letter-spacing: 0px;
     color:#707070;
-    width: 33%;
+    width: 100%;
 
 }
 .p_3{
@@ -181,8 +181,11 @@ a:hover{
     margin-top: 22px;
     width:2%;
 }
-.smile{
-    display: inline-flex;
+
+.smile_text{
+    width:630px;
+
+    
 }
 h2{
     font-family: Poppins;
@@ -204,8 +207,9 @@ h4{
     line-height: 52px;
     letter-spacing: 0px;
     margin-top: 64px;
-    width: 33%;
+    width: 100%;
     text-align: center;
+
 }
 h5{
     color:#3D82F2;
@@ -241,9 +245,14 @@ h6{
     margin-bottom: 80px;
     margin-top: 180px;
 }
-.Step_1{
-    background: url(../images/Image-4.png) right no-repeat;
-    background-size: 820px 591px;
+.images_4{
+    height:auto;
+    width: auto;
+    max-width:50%;
+    position:absolute;
+    left: 49%;
+    top: 120px;
+
 }
 .white_1{
     font-family: Poppins;
@@ -255,6 +264,7 @@ h6{
     text-align: left;
     color: #fff;
     width:100%;
+    font-size: calc(1rem + 2vw);
 }
 .white_2{
     font-family: Poppins;
@@ -266,6 +276,7 @@ h6{
     text-align: left;
     float: left;
     color: #fff;
+    font-size: calc(1rem + 2vw);
 
 }
 .blue{
@@ -278,6 +289,7 @@ h6{
     color: #3C82F4;
     text-align: left;
     float: left;
+    font-size: calc(1rem + 2vw);
 }
 
 .option{
@@ -291,6 +303,7 @@ h6{
     width: 100%;
     text-align: left;
     float: left;
+
 }
 .btn_pull{
     width:100%;
@@ -328,13 +341,23 @@ step_2{
 
 }
 .left{
-    background: #0D0D0D;
     height: 666px;
-    width: 49%;
+    width: auto;
+    max-width:50%;
     padding-top:45px;
     padding-left:45px;
     margin-top: 176px;
+    position: relative;
+    background:#0D0D0D;
     
+}
+.mobile{
+    width:auto;
+    height: auto;
+    max-width:50%;
+    position:absolute;
+
+
 }
 .right{
     background: #0D0D0D;
@@ -366,6 +389,7 @@ step_2{
     letter-spacing: 0px;
     text-align: left;
     color:#919191;
+    font-size: calc(1rem + 2vw);
 }
 .wh{
     font-family: Poppins;
@@ -377,12 +401,9 @@ step_2{
     text-align: left;
     color:#fff;
     width: 100%;
+    font-size: calc(1rem + 2vw);
 }
-.mobile{
-    width: 885px;
-    height: 321px;
-    margin-top: 14px;
-}
+
 .image_2{
     width: 100%;
     height:442px;
@@ -396,10 +417,14 @@ step_2{
     margin-top: 188px;
     padding:301px 120px 288px 120px;
 }
-.step_3{
-    background: url(../images/Image.png) right no-repeat;
-    background-size: 820px 591px;
-    margin-top: 80px;
+.images_0{
+    height:auto;
+    width: auto;
+    max-width:50%;
+    position:absolute;
+    left: 49%;
+    top: 120px;
+
 }
 h3{
     color: #fff;
@@ -409,10 +434,11 @@ h3{
     font-weight: 700;
     line-height: 150px;
     width:100%;
+    font-size: calc(1rem + 5vw);
 }
 .end_logo{
-    width:165px;
-    height:152px;
+    width:9%;
+    height:auto;
 }
 .p_5{
     font-family: Poppins;
