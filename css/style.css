@@ -45,17 +45,9 @@ div{
 logo_start{
     width: 45px;
 }
-
 .nav{
-    width:100%;
-    text-align: right;
-    top: -20px;
+    left:120px;
 }
-.logo_div{
-    width: 100%;
-    text-align: left;
-}
-
 
 a{
     text-decoration: none;
