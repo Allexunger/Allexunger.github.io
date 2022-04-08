@@ -1,0 +1,323 @@
+.body{
+    box-sizing: border-box;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    position: absolute;  
+    text-align: center;
+    align-items: center; 
+    min-width: none;
+}
+*, :after, :before{
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    
+}
+.container{
+    width: 100%; 
+    margin: 0 auto;
+}
+.header{
+    background: url(../css/images/Livello\ 1.png) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:890px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 70px;
+
+}
+.nav{
+    justify-content: space-between;
+    font-size: 28px;
+    margin:0 auto;
+
+
+}
+
+
+.nav_1{
+    color: #fff;
+    transition: all 0.4s;
+}
+nav > ul {
+    padding: 0;
+ }
+ nav li{
+     display: inline-block;
+     vertical-align: top;
+     padding: 2px;
+ }
+ nav a{
+     color: #fff;
+     padding: 1px 5px;
+     text-decoration: none;
+     transition: 0.9s;
+ }
+ nav a:hover{
+     color:#cd7cf3;
+
+ }
+ 
+ input[type="checkbox"] {
+     display: none;
+ }
+ nav label {    
+     display: none;  
+     cursor: pointer;
+     transition: 0.9s;
+     color: #fff;
+     float: left;
+ }
+ nav label:hover{
+     color: #cd7cf3;
+ }
+ 
+ 
+ @media screen and (max-width: 1280px) {
+     
+     nav {
+     text-align: left;
+     }
+     nav label{
+          display: inline-block;
+     }
+     nav > ul {
+         display: none;
+         /*width: 100px;*/
+         left: 0;
+     }
+     nav li{
+     display: block;
+     padding: 2px;
+ }
+     input[type="checkbox"]:checked ~ label + ul {
+         display: block;
+     }
+     
+ }
+
+.nav:hover{
+    color: rgb(147, 102, 151);
+}
+.header_center{
+    font-size: 28px;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 80px;
+    height: 300px;
+}
+.t2{
+    font-size: 24px;
+    text-transform: lowercase;
+    padding-bottom: 60px;
+}
+.btn{
+    border: 2px solid #009999;
+    padding: 21px 32px ;
+    color: #fff;
+    background-color:#009999;
+    transition: all 0.4s;
+    border-radius: 26px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    border: 2px solid #009973;
+    background-color: #009973;
+
+}
+.header_bot{
+    margin:0 auto;
+    margin-top: 60px;
+
+}
+.social{
+    margin: 0 10px;
+}
+
+.present{
+    background: url(../css/images/phototime_02.jpg) center no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 494px;
+    padding-top: 110px;
+    padding-bottom:110px;
+
+    
+}
+.present_inner{
+    width:1088px;
+    margin: 0 auto;
+}
+.left{
+    width:385px;
+    text-align:left;
+    font-weight: 400;
+}
+.tvcs2{
+    color: #009999;
+    padding-bottom: 50px;
+}
+.rsdf2{
+    font-size: 14px;
+    padding-bottom: 48px;
+}
+.design{
+    width:1088px;
+    background: url(../css/images/phototime_04.jpg) center center no-repeat;
+    background-size: cover;
+    height:561px;
+    margin: 0 auto;
+    padding-top: 145px;
+}
+.right{
+    width: 384px;
+    margin-left: 640px;
+    text-align: left;
+}
+.community{
+    width:100%;
+    background:#f5f6f7;
+    height:484px;
+}
+.content_community{
+    width:1088px;
+    margin:0 auto;
+    padding-top: 164px;
+    display: inline-flex;
+}
+.our_community{
+    width:192px;
+}
+.comm{
+    text-transform: uppercase;
+    margin-top: 32px;
+    padding-bottom: 25px;
+
+}
+.photo{
+    width:768px;
+    margin-left: 65px;
+}
+.photoapp{
+    width: 370px;
+    height: 245px;
+}
+#subscribe{
+    width: 100%;
+    background: url(../css/images/Livello\ 3.jpg) center no-repeat;
+    background-size: cover;
+    height:790px;
+    padding-top: 352px;
+
+}
+.subtous{
+    width:384px;
+    margin: 0 auto;
+}
+.yunyes {
+    text-transform: uppercase;
+    color: #fff;
+}
+.email{
+    width: 320px;
+    height: 60px;
+    text-transform: uppercase;
+    font-size: 26px;
+    border-radius:5px 0px 0px 5px;
+    margin: 0 ;
+    border: 0px solid #fff;
+
+
+}
+.ss{
+    display: inline-flex;
+}
+.submit{
+    height:60px;
+    width: 70px;
+    background-color: #009999;
+    transition: all 0.4s;
+    border-radius:0px 5px 5px 0px;
+    border: 0px solid #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+}
+.submit:hover{
+    background-color: #009973;
+}
+#download{
+    width: 100%;
+    height:396px;
+    background-color: #f5f6f7;
+    padding-top: 90px;
+}
+.dowcont{
+    width: 896px;
+    margin: 0 auto;
+}
+.uhyrn3t{
+    text-transform: uppercase;
+    font-size: 28px;
+
+}
+.downloadapp{
+    width: 640px;
+    margin: 0 auto;
+    display: inline-flex;
+}
+.button{
+    border-radius: 5px 0 0 5px;
+    background-color: #009999;
+    width:240px;
+    height: 56px;
+    border: 0px solid #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin-left: 25px;
+}
+button:hover{
+    background-color: #009973;
+}
+.icon{
+    width:56px;
+    height:56px;
+    border-radius: 0 5px 5px 0;
+    background-color: #009973;
+    padding-top: 12px;
+}
+.footer{
+    width: 100%;
+    height: 132px;
+    padding-top: 46px;
+
+}
+.footercontent{
+    width:1024px;
+    text-align: left;
+    margin: 0 auto;
+
+}
+.footerlink{
+    text-transform: uppercase;
+    color: #000;
+}
+.slash{
+    color: #009999;
+}
+.pha{
+    float: right;
+    margin-top: -50px;
+}
