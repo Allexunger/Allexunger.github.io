@@ -1,0 +1,573 @@
+.body{
+    box-sizing: border-box;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    position: absolute;   
+}
+*, :after, :before{
+    box-sizing: border-box;
+    
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    
+}
+.container{
+    width: 100%;
+    
+    margin: 0 auto;
+}
+.header{
+    background: url(../images/bg.jpg) center no-repeat;
+    z-index: 1000;
+    width: 100%;
+    height: auto;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    
+    
+    
+}
+.header_inner{
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    display: inline-flex;
+    color: #fff;
+    background-color: rgba(0,0,0, 0.5);
+
+    
+    
+}
+.logo{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    align-items: center;
+    text-align: center; 
+    margin-left: 10.875%;
+}
+
+
+.nav{
+    
+    font-size: 14px;
+    display: inline-flex;
+    text-transform: uppercase;
+    margin: 0 40px;
+    align-items: center;
+    text-align: center;
+    margin-right: 10.625%;
+    
+}
+.nav_link{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 40px;
+    transition: all 0.3s;
+}
+.nav_link:hover{
+    color: antiquewhite;
+}
+.icon_1{
+    margin-left: 150px; 
+    transition: all .3s ease;
+    color: #fff;
+}
+.icon_1:hover{
+    
+    fill: aqua;
+}
+.icon_2{
+    margin-left: 30px;
+    transition: all .3s ease;
+}
+.icon_2:hover{
+    
+    fill: #3366ff;
+}
+.icon_3{
+    margin-left: 30px;
+    transition: all .3s ease;
+}
+.icon_3:hover{
+    
+    fill: #cc0099;
+}
+.header_center{
+    width: 100%;
+    height: 830px;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin-top: 240px;
+    position: relative;
+}
+.slogan{
+    font-family: 'Playfair Display', serif;
+    font-size: 92px;
+    position: relative;
+}
+.slogan:after{
+    content: "";
+    background-color: rgba(255,255,255, 0.7);
+    display: block;
+    height: 1px;
+    width: 14%;
+    position: absolute;
+    left:43%;   
+}
+.line{
+  margin-top: 74px;  
+}
+.ps{
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+.btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    border: 1px dashed #999;
+    padding: 20px 50px;
+    background-color: rgba(0,0,0, 0.3); 
+    transition: all .3s ease;
+}
+.btn:hover{
+    color: antiquewhite;
+    background-color: rgba(0,0,0, 0.7);
+}
+.artofcakes{
+    background: url(../images/img%20texture.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 760px;
+    display: inline-flex;
+    
+    
+}
+.chef{
+    width: 39.375%;
+    height: auto;
+    margin-left: 10.875%;
+    text-align: center;
+    align-items: center;
+}
+.left{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 700;
+}
+.mem{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #996666;
+}
+.content{
+    margin: 70px 70px 45px 70px;
+    font-weight: 400;
+}
+.chefcook{
+    font-size: 24px;
+    
+    
+}
+.benito{
+    display: inline-flex;
+}
+.gaspare{
+    font-size: 24px;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    margin: 80px 30px 0 30px;
+    height: 40px;
+    color: #666633;
+}
+.foto{
+    background: url(../images/foto.jpg) center no-repeat;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+.curs{
+    font-family: 'Dancing Script', cursive;
+    font-size: 38px;
+    font-weight: 400;
+    color: #a47d5e;
+}
+.cov_1{
+    font-size: 60px;
+    color: #999999;
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    text-align: left;
+}
+.cov_2{
+    font-size: 60px;
+    color: #999999;
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    text-align: right;
+}
+.right_content{
+    width: 39.375%;
+    height: auto;
+    margin-right: 10.875%;
+    display: block;
+    margin-top: 120px;
+    
+}
+.left-top{
+    background: url(../images/top-left.jpg) left no-repeat;
+    width: 44%;
+    height: 41%;
+    position: relative;
+  display: inline-block;
+    background-size: cover;
+    margin: 10px;
+}
+.left-top:after{
+    position: absolute;
+  top: 6px;
+  right: 6px;
+  bottom: 6px;
+  left: 6px;
+  border: 5px solid #fff;
+  content: '';
+}
+.right-top{
+    background: url(../images/top-right.jpg) right no-repeat;
+    width: 44%;
+    height: 41%;
+    position: relative;
+    display: inline-block;
+    background-size: cover;
+    margin: 10px;
+}
+.right-top:after{
+    position: absolute;
+  top: 6px;
+  right: 6px;
+  bottom: 6px;
+  left: 6px;
+  border: 5px solid #fff;
+  content: ''; 
+}
+.left-bot{
+    background: url(../images/bot-legt.jpg) left no-repeat;
+    width: 44%;
+    height: 41%;
+    position: relative;
+    display: inline-block;
+    background-size: cover;
+    margin: 10px;
+}
+.left-bot:after{
+      position: absolute;
+  top: 6px;
+  right: 6px;
+  bottom: 6px;
+  left: 6px;
+  border: 5px solid #fff;
+  content: ''; 
+}
+.right-bot{
+    background: url(../images/right-bot.jpg) left no-repeat;
+    width: 44%;
+    height: 41%;
+    position: relative;
+    display: inline-block;
+    background-size: cover;
+    margin: 10px;
+}
+.right-bot:after{
+         position: absolute;
+  top: 6px;
+  right: 6px;
+  bottom: 6px;
+  left: 6px;
+  border: 5px solid #fff;
+  content: ''; 
+}
+.good{
+    background: url(../images/Vektor-Smartobjekt.gif) center no-repeat;
+    background-size: cover;
+    width: 235px;
+    height: 235px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #cc9966;
+    text-align: center;
+    margin-top: -55%;
+    margin-right: 36%;
+    opacity: 0.9;
+    overflow: hidden;
+    margin-left: 30.5%;
+    
+    
+        
+}
+.tastes{
+   font-size: 30px;
+    color: #cc9966;
+    margin-top: 25%;
+    opacity: 1;
+}
+.tasty{
+    background: url(../images/fon_3.jpg) center no-repeat;
+    background-size: cover;
+    height: 760px;
+    width: 100%;
+    position: relative;
+    
+    
+}
+.pancakes{
+    background: url(../images/cake.gif) center no-repeat;
+    width: 965px;
+    height: 513px;
+    position: absolute;
+    margin-top: 140px;
+    background-size: cover;
+    margin-left: 435px;
+   
+    
+    
+}
+.stars{
+  
+    float: left;
+    width: 20px;
+    height: 140px;
+    margin-top: 180px;
+    margin-left: 30px;
+    
+    
+    
+}
+.star_1{
+    background: url(../images/Star%20-%20alt%20Kopie%203%202.png) center no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+.star_2{
+    background: url(../images/Star%20-%20alt%20Kopie%203%203.png) center no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+.star_3{
+    background: url(../images/Star%20-%20alt%20Kopie%203%204.png) center no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+.star_4{
+    background: url(../images/Star%20-%20alt%20Kopie%203.png) center no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+.star_5{
+    background: url(../images/interface%20-%20favorite%20star_.png) center no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+.text_menu{
+  width: 545px;
+    height: 513px;
+    background: #fff;
+    float: right;
+    padding-top: 80px;
+    padding-left: 25px;
+    padding-right: 85px;
+    
+   
+    
+    
+    
+    
+}
+.pp{
+    font-size: 48px;
+    color:#56534c;
+}
+.season{
+    font-size: 14px;
+    color: #a47d5e;
+    text-transform: uppercase;
+}
+.nec{
+    font-weight: 400;
+    margin-top: 70px;
+}
+.mel{
+    background: url(../images/Vektor-Smartobjekt%20windmill.gif) center no-repeat;
+    width: 261px;
+    height: 294px;
+    float: right;
+   margin-top: -58%;
+    margin-right: -20%;
+}
+
+.slide{
+    width: 426px;
+    height: 90px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    align-items: center;
+}
+
+.cakes_1{
+    background: url(../images/vet.png) no-repeat center;
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+}
+.cakes_2{
+    background: url(../images/yzg.png) center no-repeat;
+    background-size: cover;
+    width: 90px;
+    height: 90px;
+    
+}
+.cakes_3{
+    background: url(../images/banan.png) center no-repeat;
+    background-size: cover;
+    width: 90px;
+    height: 90px;  
+}
+.arrow_l{
+    width: 15px;
+    height: 15px;
+    color: black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    transform: rotate(-135deg);
+    transition: all .3s ease;
+    
+}
+.arrow_l:hover{
+    border-top: 2px solid #d8bba3;
+    border-right: 2px solid #d8bba3;
+}
+
+.arrow_r{
+    width: 15px;
+    height: 15px;
+    color: black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    transform: rotate(45deg);
+    transition: all .3s ease;
+}
+.arrow_r:hover{
+    border-top: 2px solid #d8bba3;
+    border-right: 2px solid #d8bba3;
+}
+.min_40{
+    width: 200px;
+    height: 200px;
+    background: url(../images/40min.png) center no-repeat;
+    background-size: cover;
+    float: right;
+    padding: 0;
+    margin-right: -85%;
+    margin-top: -130%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+    line-height: 1;
+}
+.in{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #a47d5e;
+    margin-top: 33px;
+}
+.min{
+    font-size: 92px;
+    color: #dfc691;
+}
+.m{
+    font-size: 18px;
+    
+    color: #979285;
+    margin-top: 20px;
+}
+.breakfast{
+    
+    background: url(../images/breakfast.png) center no-repeat;
+    background-size: cover;
+    
+    width: 100%;
+    height: 760px;
+    display: inline-flex;
+    
+    
+    
+}
+.price{
+    margin-left: 330px;
+    width: 630px;
+    text-align: center;
+    margin-top: 60px;
+    
+}
+.Br{
+    color: #fff;
+    font-size: 60px;
+}
+.wao{
+    color: #c8a593;
+    font-size: 18px;
+    margin-top: -25px;
+}
+.naming{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 67px;
+}
+.opis{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff
+}
+.cen{
+    font-size: 36px;
+    color: #dfc691;
+}
+.your_mor{
+    width: 630px;
+    height: 760px;
+    margin-top: 60px;
+    margin-left: 190px;
+    
+}
+.menu_1{
+    background: url(../images/bg_menu.png) center no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 440px;
+    height: 600px;
+}
+.menu_1:after{
+    position: absolute;
+  top: 15px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  border: 2px dashed rgb(109, 109, 104);
+  content: '';
+}
