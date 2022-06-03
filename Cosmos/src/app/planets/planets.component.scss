@@ -1,0 +1,51 @@
+
+
+
+li{
+  list-style-type: none;
+  display: inline;
+  margin: 0 11px;
+
+}
+
+ul{
+  display: block;
+  width: 226px;
+  margin-top: 34px;
+  padding: 0;
+  margin:0;
+}
+
+
+
+a{
+  text-decoration: none;
+  color: #fff;
+  transition: all .2s linear;
+  position: relative;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+
+
+
+
+}
+
+a:after{
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  content: " ";
+  transition: width 0.3s ease-out;
+}
+
+a:hover:after,
+a.focus:after{
+  width: 100%;
+}

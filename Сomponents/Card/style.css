@@ -1,0 +1,94 @@
+body{
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+*{
+    margin: 0 auto;
+}
+.card{
+    width: 320px;
+    height: 480px;
+    border: 1px solid #000;
+    margin-top: 100px;
+    display: inline-block;
+    padding: .5rem 1rem;
+    position: relative;
+}
+
+.bicycle{
+    width: 280px;
+    height: 180px;
+    border: 1px solid #000;
+}
+.card_text{
+    text-align: left;
+    width: 70%;
+    margin: 90px 0 0 0;
+    
+}
+
+.old_price{
+    text-align: left;
+    width: 100%;
+    margin: 40px 0 0 0;
+    font-size: 20px;
+    text-decoration: line-through;
+    font-weight: 400;
+    color: darkgray;
+}
+.price{
+    text-align: left;
+    width: 100%;
+}
+.rating-area {
+	overflow: hidden;
+    float: left;
+    margin-top: 40px;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+.button{
+    cursor: pointer;
+    border: none;
+    background: #fff;
+    float: right;
+}
+.basket{
+    width: 40px;
+    height: 40px;
+}

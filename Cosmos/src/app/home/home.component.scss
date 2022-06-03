@@ -1,0 +1,51 @@
+.container{
+  background: url(../home/img/Bitmap.png) center center no-repeat;
+  background-size:cover;
+  width: 1440px;
+  height: 900px;
+  text-align: center;
+  color: #fff;
+
+}
+
+.space{
+  display: block;
+  width: 451px;
+  height: 382px;
+  float: left;
+  margin-top: 362px;
+}
+
+p, h1, h2{
+  width:auto;
+}
+p{
+  font-family: Barlow;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+h1{
+  font-family: Bellefair;
+font-size: 150px;
+font-weight: 400;
+line-height: 172px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+h2{
+  font-family: Barlow Condensed;
+font-size: 28px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 4.71999979019165px;
+text-align: left;
+
+
+}
+
+
